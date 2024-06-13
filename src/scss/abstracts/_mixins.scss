@@ -1,0 +1,17 @@
+@mixin viewport-media-tablet {
+  @media (min-width: 767.8px) {
+    @content;
+  }
+}
+
+@mixin viewport-media-pc {
+  @media (min-width: 1279.8px) {
+    @content;
+  }
+}
+
+@mixin text-gradient {
+  background: var(--hero-name-background);
+  background-clip: text;
+  color: transparent;
+}

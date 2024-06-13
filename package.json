@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/flower_studio/",
+    "build": "vite build --base=/tasty_treats/",
     "preview": "vite preview",
     "watch": "npx vite build --watch"
   },
